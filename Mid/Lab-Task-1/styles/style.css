@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+
+table{
+    width: 50%;
+
+     margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+td {
+    padding: 8px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+    
+h5 {
+    color: #a13333;
+    margin-bottom: 8px;
+    font-size: 15px;
+
+    text-align: center;
+    
+}
+
