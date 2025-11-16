@@ -58,6 +58,7 @@
 <tr><td><p>Use Name: </p><input type="text"></td></p></tr>
 <tr><td><p>Password: </p><input type="password"></td></tr>
 <tr><td><p>Confirm</p><input type="password"></td></tr>
+<tr><td><input type ="submit"></td></tr>
 </table>
 
 
