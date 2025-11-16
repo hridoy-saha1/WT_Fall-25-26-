@@ -36,12 +36,26 @@ alert("All Filled Are Required!!")
 
 const CourseName=document.getElementById("c-name");
 const AddBtn=document.getElementById("add");
-const ShowCourse=document.getElementById("show");
+
+const CourseList=document.getElementById("course-list")
 
 AddBtn.onclick=function(){
-  ShowCourse.innerHTML=`
-  <p>${CourseName.value}</p>
+ if(CourseName.value){
+   CourseList.innerHTML +=`
+  <div id="list">
+  
+   <p>${CourseName.value}</p>
+   <button id="btn">Delete</button>
+
+
+  </div>
   
   `
+ }
+ else{
+   CourseList.innerHTML +=`
+  <p id="red">Filled The Box</p>  
+  `
+ }
 
 }

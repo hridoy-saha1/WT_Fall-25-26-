@@ -27,28 +27,27 @@ body {
       border: 1px solid #ccc;
     }
  
-    button {
+   #add,#submit{
       background-color: #003366;
       color: white;
       cursor: pointer;
     }
  
-    button:hover {
-      background-color: #0055aa;
-    }
+   
  
     #output {
       margin-top: 20px;
       text-align: center;
       font-size: 16px;
       color: #003366;
+      border:red solid 2px;
+
+    }
+    #output:empty{
+      border: none;
     }
  
-    #error {
-      margin-top: 10px;
-      color: red;
-      text-align: center;
-    }
+    
 
     #added{
      background-color: #ffffff;
@@ -59,4 +58,19 @@ body {
     
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
+    }
+    #list{
+      display:flex;
+      gap: 20px;
+      padding: 10px;
+      justify-content:space-around;
+    }
+
+    #btn{
+      width: auto;
+      cursor: pointer;
+      background-color: red;
+    }
+    #red{
+      color: red;
     }

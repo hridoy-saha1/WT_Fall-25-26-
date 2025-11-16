@@ -6,9 +6,10 @@
 </head>
 <body>
 
-<h2>Registration Form</h2>
+
  
   <form >
+    <h2> Student Registration</h2>
     <label>Full Name:</label>
     <input type="text" id="name" />
  
@@ -25,17 +26,17 @@
     <div id="output"></div>
   </form>
  
-  <!-- Output Section -->
   <div id="added">
-    <h3>Course Registration</h3>
+    <h2>Course Registration</h2>
   <label>Course Name:</label>
     <input type="text" id="c-name" />
     <button type="submit" id="add">Add Course</button>
-    <div id="show">
-      <ul id="">
+    
+      <div id="course-list">
 
-      </ul>
-    </div>
+
+      </div>
+    
 
   </div>
  
