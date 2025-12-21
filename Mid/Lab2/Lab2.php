@@ -24,6 +24,9 @@
  
     <button type="submit" id="submit">Submit</button>
     <div id="output"></div>
+
+    <a href=""><h1>jkoj</h1></a>
+    <img src="" alt="">
   </form>
  
   <div id="added">
@@ -33,6 +36,7 @@
     <button type="submit" id="add">Add Course</button>
     
       <div id="course-list">
+          
 
 
       </div>

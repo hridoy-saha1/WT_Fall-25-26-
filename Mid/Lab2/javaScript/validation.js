@@ -59,3 +59,55 @@ AddBtn.onclick=function(){
  }
 
 }
+
+btn.onclick=function(e){
+  e.parentElement.remove();
+}
+
+
+// const CourseName = document.getElementById("c-name");
+// const AddBtn = document.getElementById("add");
+// const CourseList = document.getElementById("course-list");
+
+// AddBtn.onclick = function () {
+//   if (CourseName.value) {
+//     CourseList.innerHTML += `
+//       <div class="list-item">
+//         <p>${CourseName.value}</p>
+//         <button class="delete-btn">Delete</button>
+//       </div>
+//     `;
+//     CourseName.value = "";
+//   } else {
+//     CourseList.innerHTML += `<p id="red">Fill The Box</p>`;
+//   }
+// };
+
+// // Delete button functionality using Event Delegation
+// CourseList.addEventListener("click", function (e) {
+//   if (e.target.classList.contains("delete-btn")) {
+//     e.target.parentElement.remove(); // remove that list item
+//   }
+// });
+
+// const CourseName = document.getElementById("c-name");
+// const AddBtn = document.getElementById("add");
+// const CourseList = document.getElementById("course-list");
+
+// AddBtn.onclick = function () {
+//   if (CourseName.value) {
+//     CourseList.innerHTML += `
+//       <div class="list-item">
+//         <p>${CourseName.value}</p>
+//         <button onclick="deleteItem(this)">Delete</button>
+//       </div>
+//     `;
+//     CourseName.value = "";
+//   } else {
+//     CourseList.innerHTML += `<p id="red">Fill The Box</p>`;
+//   }
+// };
+
+// function deleteItem(btn){
+//   btn.parentElement.remove();
+// }

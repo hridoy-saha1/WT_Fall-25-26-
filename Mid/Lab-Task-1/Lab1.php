@@ -2,7 +2,7 @@
 <html>
 <head>
   
-    <title>Document</title>
+ <title>Document</title>
  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -54,7 +54,7 @@
 
     <td>   <h5>Additional Information</h5>
 </td>  
-
+   
 <tr><td><p>Use Name: </p><input type="text"></td></p></tr>
 <tr><td><p>Password: </p><input type="password"></td></tr>
 <tr><td><p>Confirm</p><input type="password"></td></tr>
